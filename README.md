@@ -7,4 +7,4 @@ How to call OVH API with .NET Core 2.0
 
 3 - edit code
 
-4 - 'dotnet run'
+4 - 'dotnet run -AK abc -AS efg -CK hij'
