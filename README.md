@@ -1,7 +1,7 @@
 # ovh-api-dotnet
 How to call OVH API with .NET Core 2.0
 
-1 - install dotnet core 2.0
+1 - [install dotnet core 2.0](https://www.microsoft.com/net/core)
 
 2 - 'dotnet new console'
 
