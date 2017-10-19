@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ovh-api-dotnet": {
+      "commandName": "Project"
+    }
+  }
+}
