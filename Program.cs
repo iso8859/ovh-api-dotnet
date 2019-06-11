@@ -49,8 +49,8 @@ namespace ovh.api
 
                 Rest r = new Rest(a.AK, a.AS, a.CK);
 
-                Task.Run(async () => await VersionA(r)).GetAwaiter().GetResult();
-                Task.Run(async () => await VersionB(r)).GetAwaiter().GetResult();
+                VersionA(r).GetAwaiter().GetResult();
+                VersionB(r).GetAwaiter().GetResult();
 
             }
             catch (Exception ex)
